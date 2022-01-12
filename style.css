@@ -289,7 +289,7 @@ p{
     letter-spacing: .05rem;
 }
 
-#services .service-bottom
+#services .service-bottom { 
     display: flex;
     align-items:flex-start;
     justify-content: center;
