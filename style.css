@@ -4,6 +4,9 @@
     margin:0;
     box-sizing: border-box;
 }
+#projects .project-info li{
+    list-style: none;
+}
 
 #projects .project-info a:link, a:visited {
     border: 1px solid red;
@@ -11,19 +14,22 @@
     padding: 14px 25px;
     font-size: 2.75rem;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;    
     display: inline-block;
     margin-top: 1.75rem;
 }
 #projects .project-info a:hover, a:active {
     background-color: red;
 }
+#design{
+    list-style: none;
+}
 
 
 #design a:link, a:visited {
     border: 1px solid white;
     color: white;
-    padding: 14px 25px;
+    padding: 14px 25px;   
     font-size: 2.0rem;
     text-align: center;
     text-decoration: none;
